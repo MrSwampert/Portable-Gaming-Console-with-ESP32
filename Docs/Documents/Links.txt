@@ -1,0 +1,5 @@
+https://hackaday.io/project/166707-esplay-micro
+
+https://github.com/pebri86/esplay_micro_hardware
+
+https://www.makerfabs.com/esplay-micro.html
