@@ -34,9 +34,11 @@ El power budget es la información del consumo típico de cada componente en V y
 
 El diagrama de bloques es la información de los componentes y como se comportan en el circuito.
 
+El puerto de micro SD, tiene que ir conectado al RX y TX del MCU
 
+Mirar como es el flujo de conexión de cada periférico que llevará la consola (cruceta, buzzer, micro SD, oled, etc...)
 
-Componentes:
+# Componentes:
 
 MCU ESP32 WROVER
 
@@ -48,7 +50,7 @@ PUSH BUTTONS PULSADOR 4 PINES TIPO SMD 6X6X5MM
 
 SWITCH ON/OFF Mini Switch Interruptor Corredera 3 Pines 2 Posiciones 
 
-MICRO SD CONNECTORMICRO SD TF PUSH PUSH SMD PCB HOLDER ADAPTADOR
+MICRO SD CONNECTOR MICRO SD TF PUSH PUSH SMD PCB HOLDER ADAPTADOR
 
 DAC CONVERSOR UDA1334A
 
@@ -59,9 +61,7 @@ USB C FEMALE
 
 LDO REGULATOR LM1117-3.3
 
-
-
-
+# Enlaces
 
 LDO REGULATOR
 https://electronilab.co/tienda/ams1117-3-3-regulador-smd-de-3-3-v-sot-223/
@@ -84,9 +84,4 @@ https://ferretronica.com/products/mini-switch-interruptor-corredera-3-pines-2-po
 Pulsadores (Para la cruceta, botones AB, START y SELECT: x8): PULSADOR 4 PINES TIPO SMD 6X6X5MM
 https://ssdielect.com/pulsadores/3285-pulsador-smd-6x6x5mm.html
 
-
 Amplificador de sonido: Transistor NPN 2N2222
-
-El puerto de micro SD, tiene que ir conectado al RX y TX del MCU
-
-Mirar como es el flujo de conexión de cada periférico que llevará la consola (cruceta, buzzer, micro SD, oled, etc...)
