@@ -2,13 +2,14 @@
 Portable Gaming Console with ESP32-WROVER, TFT Display, and MicroSD Storage
 
 
-# Apuntes:
-
-Escoger uno de los proyectos de consolas de juegos basado en ESP32 (algún repositorio bueno)
-
 # Enlace del repositorio base: https://github.com/pebri86/esplay_micro_hardware
 
 Tengo que hacer una nota de aplicación, en la cual yo busque un repositorio en donde ya haya un proyecto de la consola de juegos basado en el ESP32, que tenga el diagrama de bloques y el título, y los demás archivos. Pero lo importante es tener título, descripción, diagrama de bloques y Power Budget.
+
+
+# Apuntes:
+
+Escoger uno de los proyectos de consolas de juegos basado en ESP32 (algún repositorio bueno)
 
 
 Que se puede implementar:
@@ -62,25 +63,25 @@ LDO REGULATOR LM1117-3.3
 
 
 
-# LDO REGULATOR
+LDO REGULATOR
 https://electronilab.co/tienda/ams1117-3-3-regulador-smd-de-3-3-v-sot-223/
 
-# Socket MicroSD: CONECTOR MICRO SD TF PUSH PUSH SMD PCB HOLDER ADAPTADOR
+Socket MicroSD: CONECTOR MICRO SD TF PUSH PUSH SMD PCB HOLDER ADAPTADOR
 https://ssdielect.com/almacenamiento-de-datos/4367-push-push-sd-card-holder.html
 
-# USB C FEMALE: SHOU HAN TYPE-C 16PIN 2MD(073)
+USB C FEMALE: SHOU HAN TYPE-C 16PIN 2MD(073)
 https://lcsc.com/product-detail/USB-Connectors_SHOU-HAN-TYPE-C-16PIN-2MD-073_C2765186.html
 
-# CIRCUITO DE CARGA (chip de carga): TP4056
+CIRCUITO DE CARGA (chip de carga): TP4056
 https://ssdielect.com/reguladores-de-voltaje-variables/4173-tp4056-chip.html
 
-# Batería: Bateria Recargable en Polimero de Litio 3.7V - 1000mA
+Batería: Bateria Recargable en Polimero de Litio 3.7V - 1000mA
 https://ferretronica.com/products/bateria-recargable-en-polimero-de-litio-3-7v-1000ma
 
-# Switch ON/OFF: Mini Switch Interruptor Corredera 3 Pines 2 Posiciones 
+Switch ON/OFF: Mini Switch Interruptor Corredera 3 Pines 2 Posiciones 
 https://ferretronica.com/products/mini-switch-interruptor-corredera-3-pines-2-posiciones
 
-# Pulsadores (Para la cruceta, botones AB, START y SELECT: x8): PULSADOR 4 PINES TIPO SMD 6X6X5MM
+Pulsadores (Para la cruceta, botones AB, START y SELECT: x8): PULSADOR 4 PINES TIPO SMD 6X6X5MM
 https://ssdielect.com/pulsadores/3285-pulsador-smd-6x6x5mm.html
 
 
