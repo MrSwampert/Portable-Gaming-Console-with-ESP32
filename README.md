@@ -2,7 +2,9 @@
 Portable Gaming Console with ESP32-WROVER, TFT Display, and MicroSD Storage
 
 
-# Enlace del repositorio base: https://github.com/pebri86/esplay_micro_hardware
+# Enlace del repositorio base V1: https://github.com/pebri86/esplay_micro_hardware
+
+# Enlace de la V2: https://www.makerfabs.com/esplay-micro-v2.html
 
 Tengo que hacer una nota de aplicación, en la cual yo busque un repositorio en donde ya haya un proyecto de la consola de juegos basado en el ESP32, que tenga el diagrama de bloques y el título, y los demás archivos. Pero lo importante es tener título, descripción, diagrama de bloques y Power Budget.
 
