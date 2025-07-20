@@ -1,7 +1,7 @@
 # Portable-Gaming-Console-with-ESP32
 Portable Gaming Console with ESP32-WROVER, TFT Display, and MicroSD Storage
 
-
+Adaptado y diseñado en Altium
 # Enlace del repositorio base V1: https://github.com/pebri86/esplay_micro_hardware
 
 # Enlace de la V2: https://www.makerfabs.com/esplay-micro-v2.html
