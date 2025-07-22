@@ -54,9 +54,11 @@ It includes 11, YES eleven emulators.
 ![Block Diagram](https://github.com/user-attachments/assets/a2732f13-642e-495d-99c7-92f5d1fba33b)
 
 # 3D Model:
-<img width="995" height="541" alt="image" src="https://github.com/user-attachments/assets/9f733469-64fb-43ec-bf66-a33cd4385e1c" />
+<img width="993" height="508" alt="image" src="https://github.com/user-attachments/assets/94d55f6d-f18f-4131-ae3e-d24e379275e0" />
 
-<img width="993" height="521" alt="image" src="https://github.com/user-attachments/assets/2c562a6e-560f-4155-8f0b-117889b7906c" />
+
+<img width="993" height="508" alt="image" src="https://github.com/user-attachments/assets/fda1bbd3-08d8-44e4-8f9b-b54431d6933b" />
+
 
 # References:
 
