@@ -1,94 +1,39 @@
-# Portable-Gaming-Console-with-ESP32
+# ArcadESP - The Open-Source Retro Gaming Handheld
 Portable Gaming Console with ESP32-WROVER, TFT Display, and MicroSD Storage
 
-Adaptado y diseñado en Altium
-# Enlace del repositorio base V1: https://github.com/pebri86/esplay_micro_hardware
 
-# Enlace de la V2: https://www.makerfabs.com/esplay-micro-v2.html
+# Description:
+The circuit is centered on an ESP32-WROVER-IE microcontroller. The main power supply for the system is 3.3V.
+The design integrates several key peripherals for operation. It includes a TFT screen for graphics display, managed through multiple GPIO connections of the microcontroller. For user input, the system features a series of buttons, including direction controls (up, down, left, right), action buttons (Start, Select, A, B, L, R), and menu buttons, which connect to a PCF8574 I/O port expander.
+Data storage is handled through a MicroSD card slot with push-out functionality, allowing the reading and writing of information. Additionally, the circuit incorporates an auto-reset section for the microcontroller. Test points (TP1, TP2, TP3, TP4) are also included for monitoring key voltages such as V_USB, V_BATT and 3.3V.
 
-Tengo que hacer una nota de aplicación, en la cual yo busque un repositorio en donde ya haya un proyecto de la consola de juegos basado en el ESP32, que tenga el diagrama de bloques y el título, y los demás archivos. Pero lo importante es tener título, descripción, diagrama de bloques y Power Budget.
+# Features:
+**Processing Core:** **ESP32-WROVER-IE** module with a dual-core CPU, Wi-Fi, Bluetooth, and integrated PSRAM.
+**Connectivity & Power:** **USB-B port** for power and programming via an onboard **CH340 USB-to-UART** controller.
+**Power Management:** Includes an **LTC4054** Li-Ion battery charger and an **MIC5219 LDO regulator** for a stable 3.3V supply.
+**Audio Subsystem:** Features an I2S Stereo DAC (**UDA1334ATS**), a **PAM8403 Class-D amplifier**, and a **3.5mm audio jack** output.
+**User Interface:** **TFT color display** for visual output, accompanied by user input buttons and a status LED.
+**External Storage:** **Micro SD card slot** for expandable data and media storage.
+**I/O Expansion:** **PCF8574 I/O expander** to provide additional digital pins over the I2C bus.
 
+# Applications: 
+-	Retro Emulation Console (Main Application)
+-	Portable Media Player
+-	IoT Device and Control Tool
+-	Development and Learning Platform (All in One)
 
-# Apuntes:
+# Power Budget:
+![Power Budget](https://github.com/user-attachments/assets/43d50603-a28b-4ca9-a323-33269335eeaf)
 
-Escoger uno de los proyectos de consolas de juegos basado en ESP32 (algún repositorio bueno)
+# Block Diagram:
+![Block Diagram](https://github.com/user-attachments/assets/a2732f13-642e-495d-99c7-92f5d1fba33b)
 
+# 3D Model:
+<img width="995" height="541" alt="image" src="https://github.com/user-attachments/assets/9f733469-64fb-43ec-bf66-a33cd4385e1c" />
 
-Que se puede implementar:
+<img width="993" height="521" alt="image" src="https://github.com/user-attachments/assets/2c562a6e-560f-4155-8f0b-117889b7906c" />
 
-- A ese diagrama de bloques le puedo meter protecciones contra sobrecarga, por ejemplo. 
+# References:
+Pebri, “GitHub - pebri86/esplay_micro_hardware: Micro version of esplay hardware, ESP32 based gaming console,” GitHub. **https://github.com/pebri86/esplay_micro_hardware**
+“ESPLay Micro V2,” Handheld ESP32 Game Console | Makerfabs. **https://www.makerfabs.com/esplay-micro-v2.html** 
 
-- Un led que permita saber cuando está cargando y cuando está cargado.
-
-- Si no tiene, se le puede añadir un filtro de condensadores de desacoplo (como está en el diseño del USB Tester) del regulador al MCU.
-
-
-
-En la descripción iría lo siguiente (algo así, dependiendo de lo que se le implemente adicional):
-
-"Al diseño original se le realizaron mejoras en cuanto a protección y usabilidad, como la incorporación de un circuito de protección contra sobrecorriente y un sistema de doble LED que informa tanto el estado de carga como el nivel de batería baja. Estas mejoras no solo aumentan la seguridad del dispositivo, sino que también optimizan la experiencia del usuario final."
-
-• El power budget que es?
-El power budget es la información del consumo típico de cada componente en V y mA en modo activo.
-
-
-• El diagrama de bloques que es?
-
-El diagrama de bloques es la información de los componentes y como se comportan en el circuito.
-
-El puerto de micro SD, tiene que ir conectado al RX y TX del MCU
-
-Mirar como es el flujo de conexión de cada periférico que llevará la consola (cruceta, buzzer, micro SD, oled, etc...)
-
-# Componentes:
-
-MCU ESP32 WROVER, Dual core processor with Integrated 4MB Flash + 4MB PSRAM Integrated WIFI and Bluetooth 4 BLE
-
-DISPLAY 2,4" ILI9341 TFT 
-
-CONVERSOR BUTTONS (expanded via PCF8574 I2C GPIO)
-
-PUSH BUTTONS PULSADOR 4 PINES TIPO SMD 6X6X5MM
-
-SWITCH ON/OFF Mini Switch Interruptor Corredera 3 Pines 2 Posiciones 
-
-MICRO SD CONNECTOR slot connected to SDMMC Host in 1 Line Mode for save GPIO pin
-
-DAC (CONVERSOR ANÁLOGO - DIGITAL) CONVERSOR UDA1334A Integrated I2S DAC via UDA1334A
-
-USB TO UART CONTROLLER C FEMALE CH340C
-
-CHARGER MICROCHIP LTC4054 Li-Po charger
-
-LDO REGULATOR LM1117-3.3
-
-I2C PORT EXPANDABLE FUNCTION
-
-3,5mm HEADPHONE JACK
-
-SMALLER SIZE, PCB ONLY 100 x 50 mm
-
-# Enlaces
-
-LDO REGULATOR
-https://electronilab.co/tienda/ams1117-3-3-regulador-smd-de-3-3-v-sot-223/
-
-Socket MicroSD: CONECTOR MICRO SD TF PUSH PUSH SMD PCB HOLDER ADAPTADOR
-https://ssdielect.com/almacenamiento-de-datos/4367-push-push-sd-card-holder.html
-
-USB C FEMALE: SHOU HAN TYPE-C 16PIN 2MD(073)
-https://lcsc.com/product-detail/USB-Connectors_SHOU-HAN-TYPE-C-16PIN-2MD-073_C2765186.html
-
-CIRCUITO DE CARGA (chip de carga): TP4056
-https://ssdielect.com/reguladores-de-voltaje-variables/4173-tp4056-chip.html
-
-Batería: Bateria Recargable en Polimero de Litio 3.7V - 1000mA
-https://ferretronica.com/products/bateria-recargable-en-polimero-de-litio-3-7v-1000ma
-
-Switch ON/OFF: Mini Switch Interruptor Corredera 3 Pines 2 Posiciones 
-https://ferretronica.com/products/mini-switch-interruptor-corredera-3-pines-2-posiciones
-
-Pulsadores (Para la cruceta, botones AB, START y SELECT: x8): PULSADOR 4 PINES TIPO SMD 6X6X5MM
-https://ssdielect.com/pulsadores/3285-pulsador-smd-6x6x5mm.html
-
-Amplificador de sonido: Transistor NPN 2N2222
