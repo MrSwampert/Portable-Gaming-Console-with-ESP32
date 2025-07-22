@@ -23,7 +23,8 @@ Data storage is handled through a MicroSD card slot with push-out functionality,
 -	Development and Learning Platform (All in One)
 
 # Power Budget:
-![Power Budget](https://github.com/user-attachments/assets/43d50603-a28b-4ca9-a323-33269335eeaf)
+<img width="3634" height="1969" alt="Power Budget" src="https://github.com/user-attachments/assets/ab43c390-9d30-4ec4-90c7-0904e69b9eae" />
+
 
 # Block Diagram:
 ![Block Diagram](https://github.com/user-attachments/assets/a2732f13-642e-495d-99c7-92f5d1fba33b)
@@ -34,6 +35,7 @@ Data storage is handled through a MicroSD card slot with push-out functionality,
 <img width="993" height="521" alt="image" src="https://github.com/user-attachments/assets/2c562a6e-560f-4155-8f0b-117889b7906c" />
 
 # References:
+
 Pebri, “GitHub - pebri86/esplay_micro_hardware: Micro version of esplay hardware, ESP32 based gaming console,” GitHub. **https://github.com/pebri86/esplay_micro_hardware**
 
 “ESPLay Micro V2,” Handheld ESP32 Game Console | Makerfabs. **https://www.makerfabs.com/esplay-micro-v2.html** 
