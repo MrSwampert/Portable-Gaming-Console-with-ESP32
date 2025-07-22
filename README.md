@@ -22,21 +22,23 @@ Data storage is handled through a MicroSD card slot with push-out functionality,
 -	IoT Device and Control Tool
 -	Development and Learning Platform (All in One)
 
+# In Terms of Gaming:
+
 Releases are here **https://github.com/retro-esp32/RetroESP32/releases**
 
 It includes 11, YES eleven emulators.
 
- Nintendo Entertainment System
- Nintendo Game Boy
- Nintendo Game Boy Color
- Sega Master System
- Sega Game Gear
- Colecovision
- Sinclair Zx Spectrum 48k
- Atari 2600
- Atari 7800
- Atari Lynx
- PC Engine
+ - Nintendo Entertainment System
+ - Nintendo Game Boy
+ - Nintendo Game Boy Color
+ - Sega Master System
+ - Sega Game Gear
+ - Colecovision
+ - Sinclair Zx Spectrum 48k
+ - Atari 2600
+ - Atari 7800
+ - Atari Lynx
+ - PC Engine
 
 # Power Budget:
 <img width="3634" height="1969" alt="Power Budget" src="https://github.com/user-attachments/assets/ab43c390-9d30-4ec4-90c7-0904e69b9eae" />
