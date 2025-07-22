@@ -8,13 +8,19 @@ The design integrates several key peripherals for operation. It includes a TFT s
 Data storage is handled through a MicroSD card slot with push-out functionality, allowing the reading and writing of information. Additionally, the circuit incorporates an auto-reset section for the microcontroller. Test points (TP1, TP2, TP3, TP4) are also included for monitoring key voltages such as V_USB, V_BATT and 3.3V.
 
 # Features:
-- **Processing Core:** **ESP32-WROVER-IE** module with a dual-core CPU, Wi-Fi, Bluetooth, and integrated PSRAM.
-- **Connectivity & Power:** **USB-B port** for power and programming via an onboard **CH340 USB-to-UART** controller.
-- **Power Management:** Includes an **LTC4054** Li-Ion battery charger and an **MIC5219 LDO regulator** for a stable 3.3V supply.
-- **Audio Subsystem:** Features an I2S Stereo DAC (**UDA1334ATS**), a **PAM8403 Class-D amplifier**, and a **3.5mm audio jack** output.
-- **User Interface:** **TFT color display** for visual output, accompanied by user input buttons and a status LED.
-- **External Storage:** **Micro SD card slot** for expandable data and media storage.
-- **I/O Expansion:** **PCF8574 I/O expander** to provide additional digital pins over the I2C bus.
+**Processing Core:** **ESP32-WROVER-IE** module with a dual-core CPU, Wi-Fi, Bluetooth, and integrated PSRAM.
+
+**Connectivity & Power:** **USB-B port** for power and programming via an onboard **CH340 USB-to-UART** controller.
+
+**Power Management:** Includes an **LTC4054** Li-Ion battery charger and an **MIC5219 LDO regulator** for a stable 3.3V supply.
+
+**Audio Subsystem:** Features an I2S Stereo DAC (**UDA1334ATS**), a **PAM8403 Class-D amplifier**, and a **3.5mm audio jack** output.
+
+**User Interface:** **TFT color display** for visual output, accompanied by user input buttons and a status LED.
+
+**External Storage:** **Micro SD card slot** for expandable data and media storage.
+
+**I/O Expansion:** **PCF8574 I/O expander** to provide additional digital pins over the I2C bus.
 
 # Applications: 
 -	Retro Emulation Console (Main Application)
