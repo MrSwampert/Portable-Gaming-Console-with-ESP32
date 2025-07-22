@@ -58,3 +58,7 @@ Pebri, “GitHub - pebri86/esplay_micro_hardware: Micro version of esplay hardwa
 
 “ESPLay Micro V2,” Handheld ESP32 Game Console | Makerfabs. **https://www.makerfabs.com/esplay-micro-v2.html** 
 
+Pebri, “GitHub - pebri86/esplay-retro-emulation: Retro Emulation Collection for ESPlay Hardware, an ESP32 based game console,” GitHub. **https://github.com/pebri86/esplay-retro-emulation**
+
+Pebri, “GitHub - pebri86/esplay-micro-firmware-collections: Firmware files collections (*.fw) for ESPlay Micro,” GitHub. **https://github.com/pebri86/esplay-micro-firmware-collections**
+
