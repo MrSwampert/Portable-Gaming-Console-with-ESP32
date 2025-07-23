@@ -43,9 +43,9 @@ Releases are here **https://github.com/retro-esp32/RetroESP32/releases**
 
 It includes 11, YES eleven emulators.
 
- - Nintendo Entertainment System
- - Nintendo Game Boy
- - Nintendo Game Boy Color
+ - Nintendo Entertainment System (NES)
+ - Nintendo Game Boy (GB)
+ - Nintendo Game Boy Color (GBC)
  - Sega Master System
  - Sega Game Gear
  - Colecovision
