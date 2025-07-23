@@ -1,7 +1,7 @@
 # ArcadESP - The Open-Source Retro Gaming Handheld
 Portable Gaming Console with ESP32-WROVER, TFT Display, and MicroSD Storage.
 
-# Summary
+# Summary:
 
 ArcadESP is an open-source, portable, retro video game console. Its main utility is to emulate games from classic consoles (such as the NES) using an ESP32 microcontroller, which is a very cheap and powerful chip. The main goal of the project is to leave it as a development board, which allows programming it for more functions.
 
