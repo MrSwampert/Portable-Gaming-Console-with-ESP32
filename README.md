@@ -81,7 +81,8 @@ The differential value of ArcadESP is its low cost, the use of the versatile ESP
 ![Schematic_v1_page-0001](https://github.com/user-attachments/assets/21245f79-7f60-4261-9b1f-8e48e182f1de)
 
 
-![Schematic_v1_page-0002](https://github.com/user-attachments/assets/f9dc21a0-e96c-4544-b652-97c719ce0494)
+![Schematic_v1_page-0002](https://github.com/user-attachments/assets/b04b60d0-3987-4f64-8e33-89aa52e31d78)
+
 
 
 # 3D Model:
